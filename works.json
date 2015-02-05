@@ -1,0 +1,40 @@
+[{
+    "group": 2014,
+    "contents": [
+        { "title": "タイトル", "caption": "キャプション", "image": "/images/2014/"},
+        { "title": "My heart", "caption": "45X38cm acrylic on fabric and Knit and canvas", "image": "/images/2014/2014001.jpg"},
+        { "title": "The beach", "caption": "acrylic on fabric and canvas", "image": "/images/2014/2014002.jpg"},
+        { "title": "he Japanese festival", "caption": "130X162cm", "image": "/images/2014/2014003.jpg"}
+    ]
+},
+{
+    "group": 2013,
+    "contents": [
+        { "title": "The sky", "caption": "130X162cm Acrylic on fabric and canvas", "image": "../images/2014/2013001.jpg"}
+    ]
+}
+{
+    "year": "2012",
+    "contents": [
+       { "title": "Untitled 2", "caption": "162X130cm oil on canvas", "image": "../images/2012/2012001.jpg"},
+        { "title": "Untitled ", "caption": "162X130cm oil on canvas", "image": "../images/2012/2012002.jpg"}
+    ]
+}
+{
+    "year": "2011",
+    "contents": [
+        { "title": "Clovers", "caption": "1303X1620mm oil on canvas 2011", "image": "../images/2011/2011001.jpg"},
+        { "title": "Sea bells", "caption": "1303X1620mm oil on canvas", "image": "../images/2011/2011002.jpg"},
+        { "title": "The blueflower", "caption": "1620X1303mm oil on canvas", "image": "../images/2011/2011003.jpg"}
+        { "title": "The red flower", "caption": "1620X1303mm oil on canvas", "image": "../images/2011/2011004.jpg"}
+        { "title": "The sea", "caption": "1620X1303mm oil on canvas", "image": "../images/2011/2011005.jpg"}
+        { "title": "The sea in summer", "caption": "1620X1303mm oil on canvas", "image": "../images/2011/2011006.jpg"}
+        { "title": "The sea", "caption": "oil on canvas 銀箔　117X91cm", "image": "../images/2011/2011007.jpg"}
+        { "title": "The sunrise", "caption": "1303X1620mm oil on canvas", "image": "../images/2011/2011008.jpg"}
+        { "title": "サンクトペテルブルク（ロシア）の　ERARTA 美術館にて個展", "caption": "", "image": "../images/2011/2011009.jpg"}
+        { "title": "サンクトペテルブルク（ロシア）の　ERARTA 美術館にて個展2", "caption": "", "image": "../images/2011/2011010.jpg"}
+    ]
+    
+}
+
+    ]
