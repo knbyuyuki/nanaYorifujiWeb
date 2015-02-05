@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>依藤奈々-Nana Yorifuji-Works</title>
+</head>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<script src="jquery.min.js"></script>
+<script>
+    $(function(){
+	$.getJSON("works.json",function(json){
+		for(var i in json){
+			//変数dataに入ってる個数だけ繰り返す
+			$(".group").append("<h2>"+json[i].group+"</h2>");
+			//[が入れ子になっているため、1つ目のループでは1番目のプロパティしか取得できない
+		}
+	});
+});
+</script>
+
+
+
+<style>
+    nav ul li:nth-child(2){
+        background-color: rgba(255,238,255,.5);
+    }
+    </style>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1><img src="images/logo.svg" alt="依藤奈奈―Nana Yorifuji―"></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="plofile.html">Plofile</a>
+                    </li>
+                    <li>
+                        <a href="works.html">Works</a>
+                    </li>
+                    <li><a href="documents.html">Documents</a></li>
+                    <li>
+                       <a href="mailto:info&#64;example.com">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="contentsWrapper">
+           <article class="contentsBox">
+               <div class="group"></div>
+                <section class="contents">
+                   <section class="thumbnail">
+                       <img src="">
+                        <div class="text">
+                        <p>ダミーテキスト</p>
+                        </div>
+                   </section>
+                   <section class="thumbnail">
+                       <img src="">
+                        <div class="text">
+                        <p>ダミーテキスト</p>
+                        </div>
+                   </section>
+                </section>   
+           </article>
+        </section>
+        <footer>
+            <p>©Nana Yorifuji 2015.</p>
+        </footer>
+    </div>
+</body>
+</html>
